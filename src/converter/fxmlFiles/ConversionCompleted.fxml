@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane prefHeight="200.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="converter.controllers.ConversionController">
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="390.0" styleClass="background"
+                    stylesheets="@../cssFiles/SaveOptions.css">
+            <children>
+                <Pane layoutX="15.0" layoutY="16.0" prefHeight="101.0" prefWidth="362.0" styleClass="pane"
+                      stylesheets="@../cssFiles/SaveOptions.css">
+                    <children>
+                        <Label fx:id="conversionCompleted" layoutX="40.0" layoutY="40.0" text="Conversion Completed"/>
+                    </children>
+                </Pane>
+                <Button fx:id="openFile" layoutX="27.0" layoutY="140.0" mnemonicParsing="false" prefHeight="32.0"
+                        prefWidth="98.0" text="Open file"/>
+                <Button fx:id="home" layoutX="146.0" layoutY="140.0" mnemonicParsing="false" prefHeight="32.0"
+                        prefWidth="98.0" text="Home"/>
+                <Button fx:id="exit" layoutX="267.0" layoutY="140.0" mnemonicParsing="false" prefHeight="32.0"
+                        prefWidth="98.0" text="Exit"/>
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

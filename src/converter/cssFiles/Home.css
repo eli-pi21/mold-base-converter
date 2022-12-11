@@ -1,0 +1,87 @@
+.background {
+    -fx-background-color: #660000;
+}
+
+.pane {
+    -fx-background-color: #330000;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-width:1;
+    -fx-border-color: #1a0000;
+}
+
+.infoPane {
+    -fx-background-color: #330000;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-width: 0;
+}
+
+.label {
+    -fx-font-size: 22pt;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: #b06d6d;
+    -fx-text-align: center;
+}
+
+.infoLabel {
+    -fx-font-size: 10pt;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: #b06d6d;
+    -fx-text-align: center;
+}
+
+.button {
+  -fx-display: inline-block;
+  -fx-border-radius: 4px;
+  -fx-background-color: #660000;
+  -fx-border: none;
+  -fx-color: #FFFFFF;
+  -fx-text-align: center;
+  -fx-width: 80px;
+  -fx-height: 30px;
+  -fx-font-size: 16px;
+  -fx-font-family: "Century Gothic";
+  -fx-text-fill: #b06d6d;
+}
+
+.button:hover {
+   -fx-background-color: #823030;
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: #4d0000;
+}
+
+.button:disabled {
+  -fx-background-color: #8c8c8c;
+  -fx-text-fill: #cccccc;
+}
+
+.buttonInfo {
+  -fx-display: inline-block;
+  -fx-border-radius: 4px;
+  -fx-background-color: #330000;
+  -fx-border: none;
+  -fx-color: #FFFFFF;
+  -fx-text-align: center;
+  -fx-width: 80px;
+  -fx-height: 30px;
+  -fx-font-size: 16px;
+  -fx-font-family: "Century Gothic";
+  -fx-text-fill: #b06d6d;
+}
+
+.buttonInfo:hover {
+   -fx-background-color: #823030;
+}
+
+.buttonInfo:pressed, .button:default:hover:pressed {
+  -fx-background-color: #4d0000;
+}
+
+.buttonInfo:disabled {
+  -fx-background-color: #8c8c8c;
+  -fx-text-fill: #cccccc;
+}
+
